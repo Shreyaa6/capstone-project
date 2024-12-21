@@ -16,7 +16,6 @@ body {
     padding: 0 2rem;
 }
 
-/* Header */
 .header {
     padding: 2rem 0;
 }
@@ -81,7 +80,6 @@ body {
     letter-spacing: -1.68px;
 }
 
-/* Hero */
 .hero {
     padding: 6rem 0;
     text-align: center;
@@ -100,7 +98,6 @@ body {
     border-radius: 28px;
 }
 
-/* Projects Grid */
 .projects {
     padding: 3.25rem 0;
 }
@@ -140,7 +137,6 @@ body {
     border-top: 1.5px solid #FFFFFF
 }
 
-/* Grid Responsiveness */
 @media (max-width: 1024px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
@@ -153,7 +149,6 @@ body {
     }
 }
 
-/* About */
 .about {
     padding: 6rem 0;
 }
@@ -164,7 +159,6 @@ body {
     max-width: 42rem;
 }
 
-/* Contact */
 .contact {
     padding: 8rem 0;
 }
@@ -228,7 +222,6 @@ body {
 }
 
 
-/* Footer */
 .footer {
     padding: 2rem 0;
 }
@@ -254,7 +247,6 @@ body {
     cursor: pointer;
 }
 
-/* Responsiveness */
 @media (max-width: 1024px) {
     .hero-title {
         font-size: 5rem;
