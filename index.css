@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #020D0D;
+    background-color: #020d0d;
 }
 
 body {
-    color: #D7E4E4;
+    color: white;
     font-family: Public Sans;
 }
 
@@ -16,6 +16,7 @@ body {
     padding: 0 2rem;
 }
 
+/* Header */
 .header {
     padding: 2rem 0;
 }
@@ -71,7 +72,7 @@ body {
     font-size: 1.0625rem;
 }
 
-.techport {
+.logo {
     background: none;
     color: white;
     font-family: 'Source Serif 4', serif;
@@ -80,24 +81,26 @@ body {
     letter-spacing: -1.68px;
 }
 
-.title {
+/* Hero */
+.hero {
     padding: 6rem 0;
     text-align: center;
 }
 
-.title1 {
+.hero-title {
     font-size: 7.5rem;
     font-weight: 700;
     letter-spacing: -2.4px;
     margin-bottom: 3.25rem;
 }
 
-.title-image {
+.hero-image {
     aspect-ratio: 16/9;
     background: url('assets/maincover.png') center/cover;
     border-radius: 28px;
 }
 
+/* Projects Grid */
 .projects {
     padding: 3.25rem 0;
 }
@@ -112,9 +115,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.625rem;
-    transition: transform 0.2s ease-in-out;
 }
-
 
 .image {
     aspect-ratio: 16/9;
@@ -125,19 +126,21 @@ body {
 
 .title {
     font-size: 1.25rem;
-    color: var(#d7e4e4);
+    color:  #D7E4E4;
+
 }
 
 .type {
     font-size: 1.0625rem;
     color:#D1EBEB9E;
+
 }
 
 .code{
-    border:#B8E0E01F;
-    ;
+    border-top: 1.5px solid #FFFFFF
 }
 
+/* Grid Responsiveness */
 @media (max-width: 1024px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
@@ -179,7 +182,7 @@ body {
 }
 
 .contact-subtitle {
-    color: var(rgba(208, 235, 235, 0.62));
+    color: rgba(208, 235, 235, 0.62);
     margin-bottom: 2.5rem;
 }
 
@@ -196,17 +199,16 @@ body {
     background: #B8E0E01F;
     border: 1.5px solid transparent;
     border-radius: 1rem;
-    color:  #D1EBEB66;
+    color: #D1EBEB66;
     font-size: 1.25rem;
     text-align: center;
 }
 
-
 .submit-btn {
     width: 100%;
     padding: 0.625rem 1.25rem;
-    background: #00FFFF;
-    color: #000505;
+    background: #00ffff;
+    color:#020d0d;
     border: none;
     border-radius: 1rem;
     font-weight: 500;
@@ -225,10 +227,10 @@ body {
     cursor: pointer;
 }
 
+
+/* Footer */
 .footer {
     padding: 2rem 0;
-    color: #D1EBEB9E;
-
 }
 
 .footer-container {
@@ -244,16 +246,17 @@ body {
 
 .follow-btn {
     padding: 0.4rem 1rem;
-    border: 1.5px solid  #91B6B633;
+    border-top: 1.5px solid #91B6B633;
     border-radius: 0.5rem;
     background: none;
-    color:  #D7E4E4;
+    color: white;
     font-weight: 500;
     cursor: pointer;
 }
 
+/* Responsiveness */
 @media (max-width: 1024px) {
-    .title1 {
+    .hero-title {
         font-size: 5rem;
     }
 
@@ -275,7 +278,7 @@ body {
         gap: 1rem;
     }
 
-    .title1 {
+    .hero-title {
         font-size: 3.5rem;
     }
 
@@ -298,7 +301,7 @@ body {
         padding: 0 1rem;
     }
 
-    .title1 {
+    .hero-title {
         font-size: 2.5rem;
     }
 
